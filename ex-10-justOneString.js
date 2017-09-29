@@ -6,7 +6,22 @@
  * but returns false if both arguments or neither are strings
  *
  **/
+var int;
+var cadena;
 
+function justOneString(int, cadena) {
+  if (typeof int=== 'string' && typeof cadena === 'number' || typeof int=== 'number' && typeof cadena=== 'string') {
+    // console.log('true');
+    return (true);
+
+  }else {
+    // console.log('false');
+    return (false);
+  }
+
+
+
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

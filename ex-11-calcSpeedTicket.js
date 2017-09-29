@@ -30,7 +30,16 @@
  *    => 500
  *
  **/
+var limit;
+var user;
+var boolean;
 
+function calcSpeedTicket(limit, user, boolean) {
+  if (limit<20 user) {
+
+  }
+
+}
 
 
 

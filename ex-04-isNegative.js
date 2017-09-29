@@ -6,6 +6,16 @@
  *
  **/
 
+ var number;
+ function isNegative(number) {
+   if (number<0) {
+     return (true);
+   } else {
+     return (false);
+   }
+
+ }
+
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( isNegative(100) === false )

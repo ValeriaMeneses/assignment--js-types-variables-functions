@@ -14,6 +14,32 @@
  *
  **/
 
+ var int;
+
+ function getSeasonForMonth(int) {
+   if (int ===12 || int === 1 || int === 2) {
+    //  console.log('winter');
+     return ('winter');
+
+   }else if (int=== 3 || int === 5 || int === 4) {
+    //  console.log('spring');
+     return ('spring');
+
+   }else if (int=== 9 || int=== 10) {
+    //  console.log('fall');
+     return ('fall');
+
+   }else if (int === 7 || int===8 || int === 6){
+    //  console.log('summer');
+     return ('summer');
+
+   }else if(int>12 || int<1 || int=== undefined || typeof int === 'string'){
+    //  console.log(false);
+     return (false);
+   }
+
+ }
+
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

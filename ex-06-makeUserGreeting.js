@@ -18,7 +18,25 @@
  * NOTE: Don't forget the comma and space and ending puctuation when building the string.
  **/
 
+var name = '';
+var boolean;
+var char= '!'
+var punto ='.'
 
+function makeUserGreeting(name,boolean) {
+  if (boolean === true) {
+    var user = 'Good to see you again, ' + name + punto
+    // console.log(user);
+    return (user);
+
+  } else if (boolean === false) {
+    var otheruser = 'Welcome, ' + name + char
+    // console.log(otheruser);
+    return (otheruser);
+
+  }
+
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*

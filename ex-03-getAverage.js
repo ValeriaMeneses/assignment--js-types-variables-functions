@@ -7,6 +7,18 @@
  * of your average function.
  *
  **/
+ var suma;
+ var promedio;
+var x;
+var y;
+
+ function getAverage(x,y){
+   suma = x + y
+   promedio= suma/2
+  //  console.log(promedio);
+   return (promedio);
+
+ }
 
 
 
