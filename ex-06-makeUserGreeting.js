@@ -20,7 +20,7 @@
 
 var name = '';
 var boolean;
-var char= '!'
+var char = '!'
 var punto ='.'
 
 function makeUserGreeting(name,boolean) {
@@ -30,7 +30,7 @@ function makeUserGreeting(name,boolean) {
     return (user);
 
   } else if (boolean === false) {
-    var otheruser = 'Welcome, ' + name + char
+    var otheruser = 'Welcome, ' + name + char;
     // console.log(otheruser);
     return (otheruser);
 
